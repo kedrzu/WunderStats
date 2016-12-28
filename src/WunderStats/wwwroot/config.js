@@ -1,17 +1,26 @@
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "typescript",
+  transpiler: "ts",
   paths: {
     "github:*": "lib/github/*",
     "npm:*": "lib/npm/*"
+  },
+  packages: {
+      "src": {
+          "defaultExtension": "ts"
+      }
   },
 
   map: {
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.0.1",
     "aurelia-framework": "npm:aurelia-framework@1.0.8",
     "aurelia-pal-browser": "npm:aurelia-pal-browser@1.1.0",
+    "ts": "github:frankwallis/plugin-typescript@5.3.3",
     "typescript": "npm:typescript@2.1.4",
+    "github:frankwallis/plugin-typescript@5.3.3": {
+      "typescript": "npm:typescript@2.1.4"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },

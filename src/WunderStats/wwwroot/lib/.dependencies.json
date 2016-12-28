@@ -454,5 +454,8 @@
     "aurelia-path": "npm:aurelia-path@^1.0.0",
     "aurelia-task-queue": "npm:aurelia-task-queue@^1.0.0",
     "aurelia-templating": "npm:aurelia-templating@^1.0.0"
+  },
+  "github:frankwallis/plugin-typescript@5.3.3": {
+    "typescript": "npm:typescript@^2.0.0"
   }
 }
