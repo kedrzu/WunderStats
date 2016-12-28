@@ -1,16 +1,24 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "alwaysStrict": true,
     "noImplicitAny": true,
     "noEmitOnError": true,
     "removeComments": false,
-    "sourceMap": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
     "target": "es6",
-    "watch": true,
-    "typeRoots": [ "./typings/modules" ]
+    //"watch": true,
+    "moduleResolution": "node",
+    "typeRoots": [ "./typings/custom", "./typings/globals", "./typings/@types" ],
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "*", "typings/modules/*" ]
+    },
+    "traceResolution": true
   },
   "include": [
-    "wwwroot/js/**/*"
+    "wwwroot/src/**/*"
   ],
   "exclude": [
     "node_modules",

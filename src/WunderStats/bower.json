@@ -1,16 +1,5 @@
 {
   "name": "asp.net",
   "private": true,
-  "dependencies": {
-    "bootstrap": "3.3.6",
-    "aurelia-framework": "0.18.0",
-    "aurelia-router": "1.1.0"
-  },
-  "resolutions": {
-    "aurelia-dependency-injection": "^1.0.0",
-    "aurelia-logging": "^1.0.0",
-    "aurelia-metadata": "^1.0.0",
-    "aurelia-pal": "^1.0.0",
-    "aurelia-path": "^1.0.0"
-  }
+  "dependencies": {}
 }
