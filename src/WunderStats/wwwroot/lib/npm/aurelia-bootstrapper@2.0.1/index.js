@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-bootstrapper'], function (exports, _aureliaBootstrapper) {
   'use strict';
 

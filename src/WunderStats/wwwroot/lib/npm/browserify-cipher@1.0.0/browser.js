@@ -1,4 +1,3 @@
-/* */ 
 var ebtk = require('evp_bytestokey')
 var aes = require('browserify-aes/browser')
 var DES = require('browserify-des')

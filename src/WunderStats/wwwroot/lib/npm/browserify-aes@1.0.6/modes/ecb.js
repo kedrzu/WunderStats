@@ -1,4 +1,3 @@
-/* */ 
 exports.encrypt = function (self, block) {
   return self._cipher.encryptBlock(block)
 }

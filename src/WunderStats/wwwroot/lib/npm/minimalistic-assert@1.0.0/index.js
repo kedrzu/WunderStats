@@ -1,4 +1,3 @@
-/* */ 
 module.exports = assert;
 
 function assert(val, msg) {

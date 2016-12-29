@@ -1,4 +1,3 @@
-/* */ 
 var bn = require('bn.js');
 var brorand = require('brorand');
 

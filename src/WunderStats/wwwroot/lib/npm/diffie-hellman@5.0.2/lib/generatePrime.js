@@ -1,4 +1,3 @@
-/* */ 
 var randomBytes = require('randombytes');
 module.exports = findPrime;
 findPrime.simpleSieve = simpleSieve;

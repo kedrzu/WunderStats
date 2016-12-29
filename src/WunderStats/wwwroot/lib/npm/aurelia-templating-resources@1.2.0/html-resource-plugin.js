@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', 'aurelia-templating', './dynamic-element'], function (exports, _aureliaTemplating, _dynamicElement) {
   'use strict';
 

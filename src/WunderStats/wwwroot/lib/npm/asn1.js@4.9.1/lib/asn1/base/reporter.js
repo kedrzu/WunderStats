@@ -1,4 +1,3 @@
-/* */ 
 var inherits = require('inherits');
 
 function Reporter(options) {

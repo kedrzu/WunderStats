@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', 'aurelia-logging'], function (exports, _aureliaLogging) {
   'use strict';
 

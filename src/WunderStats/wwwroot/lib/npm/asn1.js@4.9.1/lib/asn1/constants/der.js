@@ -1,5 +1,5 @@
-/* */ 
-var constants = require('./index');
+var constants = require('../constants');
+
 exports.tagClass = {
   0: 'universal',
   1: 'application',
@@ -7,6 +7,7 @@ exports.tagClass = {
   3: 'private'
 };
 exports.tagClassByName = constants._reverse(exports.tagClass);
+
 exports.tag = {
   0x00: 'end',
   0x01: 'bool',

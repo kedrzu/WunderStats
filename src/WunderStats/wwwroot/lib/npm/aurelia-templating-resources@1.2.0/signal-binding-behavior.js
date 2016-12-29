@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './binding-signaler'], function (exports, _bindingSignaler) {
   'use strict';
 

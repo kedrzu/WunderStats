@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-binding'], function (exports, _aureliaBinding) {
   'use strict';
 

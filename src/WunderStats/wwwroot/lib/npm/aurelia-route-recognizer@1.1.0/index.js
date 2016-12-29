@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-route-recognizer'], function (exports, _aureliaRouteRecognizer) {
   'use strict';
 

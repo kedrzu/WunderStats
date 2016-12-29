@@ -1,4 +1,3 @@
-/* */ 
 module.exports = function xorInplace (a, b) {
   var length = Math.min(a.length, b.length)
 

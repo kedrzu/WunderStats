@@ -1,4 +1,3 @@
-/* */ 
 exports.dhGroups = {
   p16: {
     prime: 'ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd1' +

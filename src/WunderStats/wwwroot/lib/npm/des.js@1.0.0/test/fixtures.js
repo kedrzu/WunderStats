@@ -1,4 +1,3 @@
-/* */ 
 'use strict';
 
 exports.bin = function bin(str) {

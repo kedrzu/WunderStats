@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', 'aurelia-templating', 'aurelia-dependency-injection'], function (exports, _aureliaTemplating, _aureliaDependencyInjection) {
   'use strict';
 

@@ -1,4 +1,3 @@
-/* */ 
 module.exports = {
   doubles: {
     step: 4,

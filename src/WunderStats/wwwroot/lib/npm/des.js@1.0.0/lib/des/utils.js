@@ -1,4 +1,3 @@
-/* */ 
 'use strict';
 
 exports.readUInt32BE = function readUInt32BE(bytes, off) {

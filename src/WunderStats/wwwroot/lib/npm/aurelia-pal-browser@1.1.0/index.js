@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-pal-browser'], function (exports, _aureliaPalBrowser) {
   'use strict';
 

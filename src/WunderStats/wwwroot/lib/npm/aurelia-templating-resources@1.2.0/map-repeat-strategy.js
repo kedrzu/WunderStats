@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './repeat-utilities'], function (exports, _repeatUtilities) {
   'use strict';
 

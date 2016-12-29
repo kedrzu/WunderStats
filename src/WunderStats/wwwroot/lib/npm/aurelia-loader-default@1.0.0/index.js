@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-loader-default'], function (exports, _aureliaLoaderDefault) {
   'use strict';
 

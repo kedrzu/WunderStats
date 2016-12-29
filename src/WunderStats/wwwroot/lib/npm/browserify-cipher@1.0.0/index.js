@@ -1,4 +1,3 @@
-/* */ 
 var crypto = require('crypto')
 
 exports.createCipher = exports.Cipher = crypto.createCipher

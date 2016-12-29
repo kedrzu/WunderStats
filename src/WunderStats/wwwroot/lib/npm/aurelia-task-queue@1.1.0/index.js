@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-task-queue'], function (exports, _aureliaTaskQueue) {
   'use strict';
 

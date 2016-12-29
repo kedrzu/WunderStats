@@ -1,5 +1,3 @@
-/* */ 
-"format cjs";
 'use strict';
 
 // NOTE: This could be potentionally used to generate loop-less multiplications

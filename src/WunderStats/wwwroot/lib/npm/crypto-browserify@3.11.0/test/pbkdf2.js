@@ -1,4 +1,3 @@
-/* */ 
 var tape = require('tape')
 var crypto = require('pbkdf2/browser')
 

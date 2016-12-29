@@ -1,4 +1,3 @@
-/* */ 
 var utils = exports;
 var inherits = require('inherits');
 

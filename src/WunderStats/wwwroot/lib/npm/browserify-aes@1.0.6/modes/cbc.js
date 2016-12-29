@@ -1,4 +1,3 @@
-/* */ 
 var xor = require('buffer-xor')
 
 exports.encrypt = function (self, block) {

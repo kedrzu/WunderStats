@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "wwwroot/lib/npm/semantic-ui-less@2.2.4/theme.css",
+    "inputFile": "wwwroot/lib/npm/semantic-ui-less@2.2.4/theme.less"
+  },
+  {
+    "outputFile": "wwwroot/lib/npm/semantic-ui-less@2.2.4/foobar.css",
+    "inputFile": "wwwroot/lib/npm/semantic-ui-less@2.2.4/foobar.less"
+  },
+  {
+    "outputFile": "wwwroot/css/styles.css",
+    "inputFile": "wwwroot/css/styles.less"
+  }
+]

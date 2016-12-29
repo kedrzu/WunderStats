@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-metadata'], function (exports, _aureliaMetadata) {
   'use strict';
 

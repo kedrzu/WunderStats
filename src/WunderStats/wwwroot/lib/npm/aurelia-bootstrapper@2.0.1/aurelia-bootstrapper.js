@@ -1,4 +1,3 @@
-/* */ 
 define(['module', 'exports', 'aurelia-pal', 'aurelia-polyfills'], function (module, exports, _aureliaPal) {
   'use strict';
 

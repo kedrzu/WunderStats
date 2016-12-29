@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-polyfills'], function (exports, _aureliaPolyfills) {
   'use strict';
 

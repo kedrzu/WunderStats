@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-templating-resources'], function (exports, _aureliaTemplatingResources) {
   'use strict';
 

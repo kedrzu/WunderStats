@@ -1,4 +1,3 @@
-/* */ 
 exports['aes-128-ecb'] = {
   cipher: 'AES',
   key: 128,

@@ -1,4 +1,3 @@
-/* */ 
 exports['des-ecb'] = {
   key: 8,
   iv: 0

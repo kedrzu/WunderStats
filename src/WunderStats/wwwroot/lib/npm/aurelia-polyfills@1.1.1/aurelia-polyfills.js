@@ -1,4 +1,3 @@
-/* */ 
 define(['aurelia-pal'], function (_aureliaPal) {
   'use strict';
 

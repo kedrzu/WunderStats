@@ -1,4 +1,3 @@
-/* */ 
 var test = require('tape')
 var crypto = require('diffie-hellman/browser')
 

@@ -1,4 +1,3 @@
-/* */ 
 'use strict'
 exports['1.3.132.0.10'] = 'secp256k1'
 

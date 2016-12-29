@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', 'aurelia-binding', 'aurelia-dependency-injection', './html-sanitizer'], function (exports, _aureliaBinding, _aureliaDependencyInjection, _htmlSanitizer) {
   'use strict';
 

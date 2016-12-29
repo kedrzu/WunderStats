@@ -1,4 +1,3 @@
-/* */ 
 function toHex (buf, group, wrap, LE) {
   buf = buf.buffer || buf
   var s = ''

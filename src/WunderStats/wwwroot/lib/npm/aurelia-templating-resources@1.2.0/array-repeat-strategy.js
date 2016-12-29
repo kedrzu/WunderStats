@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './repeat-utilities', 'aurelia-binding'], function (exports, _repeatUtilities, _aureliaBinding) {
   'use strict';
 

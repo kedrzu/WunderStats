@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-history'], function (exports, _aureliaHistory) {
   'use strict';
 

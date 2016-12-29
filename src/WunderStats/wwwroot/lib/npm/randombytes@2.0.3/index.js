@@ -1,2 +1,1 @@
-/* */ 
-module.exports = require('crypto').randomBytes;
+module.exports = require('crypto').randomBytes

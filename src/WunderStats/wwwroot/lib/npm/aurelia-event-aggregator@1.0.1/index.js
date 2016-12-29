@@ -1,4 +1,3 @@
-/* */ 
 define(['exports', './aurelia-event-aggregator'], function (exports, _aureliaEventAggregator) {
   'use strict';
 

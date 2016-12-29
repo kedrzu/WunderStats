@@ -1,4 +1,3 @@
-/* */ 
 'use strict';
 
 var BN = require('bn.js');
