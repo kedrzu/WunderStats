@@ -73,7 +73,6 @@ SystemJS.config({
     "path": "npm:jspm-nodelibs-path@0.2.1",
     "process": "npm:jspm-nodelibs-process@0.2.0",
     "semantic-ui": "github:Semantic-Org/Semantic-UI@2.2.7",
-    "semantic-ui-less": "npm:semantic-ui-less@2.2.4",
     "stream": "npm:jspm-nodelibs-stream@0.2.0",
     "string_decoder": "npm:jspm-nodelibs-string_decoder@0.2.0",
     "ts": "github:frankwallis/plugin-typescript@5.3.3",
@@ -480,11 +479,6 @@ SystemJS.config({
         "buffer-shims": "npm:buffer-shims@1.0.0",
         "process-nextick-args": "npm:process-nextick-args@1.0.7",
         "util-deprecate": "npm:util-deprecate@1.0.2"
-      }
-    },
-    "npm:semantic-ui-less@2.2.4": {
-      "map": {
-        "jquery": "npm:jquery@3.1.1"
       }
     }
   }

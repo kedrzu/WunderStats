@@ -1,3 +1,4 @@
+/// <reference path="globals/jquery/index.d.ts" />
 /// <reference path="globals/url/index.d.ts" />
 /// <reference path="globals/whatwg-fetch/index.d.ts" />
 /// <reference path="globals/whatwg-streams/index.d.ts" />

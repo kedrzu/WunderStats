@@ -3,12 +3,16 @@
   "name": "wunderstats",
   "private": true,
   "devDependencies": {
-    "gulp": "3.9.1",
+    "gulp": "^3.9.1",
     "gulp-concat": "2.6.1",
     "gulp-cssmin": "0.1.7",
+    "gulp-help": "^1.6.1",
     "gulp-uglify": "2.0.0",
     "jspm": "^0.17.0-beta.32",
-    "rimraf": "2.5.4"
+    "require-dir": "^0.3.1",
+    "require-dot-file": "^0.4.0",
+    "rimraf": "2.5.4",
+    "run-sequence": "^1.2.2"
   },
   "jspm": {
     "main": "wunderstats.js",
@@ -19,7 +23,6 @@
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.0.1",
       "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.7",
-      "semantic-ui-less": "npm:semantic-ui-less@^2.2.4",
       "ts": "github:frankwallis/plugin-typescript@^5.3.3"
     },
     "devDependencies": {
@@ -105,9 +108,6 @@
       "npm:jquery@2.2.4": {
         "format": "amd"
       },
-      "npm:jquery@3.1.1": {
-        "format": "amd"
-      },
       "npm:typescript@2.1.4": {
         "browser": {},
         "map": {
@@ -123,6 +123,8 @@
         }
       }
     }
+  },
+  "dependencies": {
+    "semantic-ui": "^2.2.7"
   }
 }
-

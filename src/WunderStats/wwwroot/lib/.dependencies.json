@@ -714,15 +714,5 @@
       "assert": "npm:jspm-nodelibs-assert@^0.2.0",
       "buffer": "npm:jspm-nodelibs-buffer@^0.2.0"
     }
-  },
-  "npm:semantic-ui-less@2.2.4": {
-    "deps": {
-      "jquery": "npm:jquery"
-    },
-    "peerDeps": {}
-  },
-  "npm:jquery@3.1.1": {
-    "deps": {},
-    "peerDeps": {}
   }
 }
