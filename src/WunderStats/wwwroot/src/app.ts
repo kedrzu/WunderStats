@@ -7,11 +7,11 @@ export class App {
     router: Router;
 
     public items = [
-        { value: 'male', name: 'Male' },
-        { value: 'female', name: 'Female' },
+        { value: "male", name: "Male" },
+        { value: "female", name: "Female" },
     ];
 
-    protected gender : string = 'female';
+    protected gender : string = "female";
     protected customGender : string;
 
     protected addGender() {

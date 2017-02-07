@@ -10,5 +10,9 @@
   {
     "outputFile": "wwwroot/css/styles.css",
     "inputFile": "wwwroot/css/styles.less"
+  },
+  {
+    "outputFile": "wwwroot/src/css/main.css",
+    "inputFile": "wwwroot/src/css/main.less"
   }
 ]

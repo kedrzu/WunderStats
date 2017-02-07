@@ -1,13 +1,15 @@
 ﻿
 import { View } from "aurelia-templating";
-import { bindable } from 'aurelia-framework';
-import { bindingMode } from 'aurelia-framework';
+import { bindable } from "aurelia-framework";
+import { bindingMode } from "aurelia-framework";
+import { customElement } from "aurelia-framework";
 
 export interface IComboboxItem {
     value: any;
     name: any;
 }
 
+@customElement('ui:combobox')
 export class Combobox {
 
     protected combo: any;

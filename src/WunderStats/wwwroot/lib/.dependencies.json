@@ -714,5 +714,9 @@
       "assert": "npm:jspm-nodelibs-assert@^0.2.0",
       "buffer": "npm:jspm-nodelibs-buffer@^0.2.0"
     }
+  },
+  "npm:aurelia-fetch-client@1.1.0": {
+    "deps": {},
+    "peerDeps": {}
   }
 }

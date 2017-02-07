@@ -42,6 +42,7 @@ SystemJS.config({
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.0.1",
     "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
+    "aurelia-fetch-client": "npm:aurelia-fetch-client@1.1.0",
     "aurelia-framework": "npm:aurelia-framework@1.0.8",
     "aurelia-history": "npm:aurelia-history@1.0.0",
     "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",

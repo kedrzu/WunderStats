@@ -9,10 +9,10 @@ import { Router } from "aurelia-router";
 let App = class App {
     constructor() {
         this.items = [
-            { value: 'male', name: 'Male' },
-            { value: 'female', name: 'Female' },
+            { value: "male", name: "Male" },
+            { value: "female", name: "Female" },
         ];
-        this.gender = 'female';
+        this.gender = "female";
     }
     addGender() {
         if (this.customGender) {

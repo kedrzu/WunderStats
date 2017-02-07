@@ -1,25 +1,5 @@
 ﻿<template>
-    <require from="./components/combobox"></require>
-
-    <h1>Hello world!</h1>
-    <h2>I am so ${gender}!</h2>
-
-    <combobox items.bind="items" value.bind="gender"></combobox>
-
-    <div>
-
-        <div class="ui input">
-            <input type="text"
-                   placeholder="Custom gender..."
-                   value.bind="customGender">
-        </div>
-
-        <button class="ui right labeled green icon button"
-                click.trigger="addGender()"
-                disabled.bind="!customGender">
-            <i class="plus icon"></i>
-            Add gender
-        </button>
-    </div>
-
+    
+    <app:config></app:config>
+    
 </template>
