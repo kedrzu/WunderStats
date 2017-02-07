@@ -1,5 +1,7 @@
 ﻿import { Aurelia } from "aurelia-framework";
 import "fetch";
+import "jquery";
+import "semantic/semantic.js";
 import promise from "promise-polyfill";
 
 if (!(window as any).Promise)

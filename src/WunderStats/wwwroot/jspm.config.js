@@ -66,9 +66,13 @@ SystemJS.config({
     "child_process": "npm:jspm-nodelibs-child_process@0.2.0",
     "constants": "npm:jspm-nodelibs-constants@0.2.0",
     "crypto": "npm:jspm-nodelibs-crypto@0.2.0",
+    "d3": "npm:d3@4.5.0",
     "events": "npm:jspm-nodelibs-events@0.2.0",
     "fetch": "github:github/fetch@2.0.2",
     "fs": "npm:jspm-nodelibs-fs@0.2.0",
+    "http": "npm:jspm-nodelibs-http@0.2.0",
+    "https": "npm:jspm-nodelibs-https@0.2.1",
+    "jquery": "npm:jquery@3.1.1",
     "module": "npm:jspm-nodelibs-module@0.2.0",
     "net": "npm:jspm-nodelibs-net@0.2.0",
     "os": "npm:jspm-nodelibs-os@0.2.0",
@@ -79,6 +83,7 @@ SystemJS.config({
     "stream": "npm:jspm-nodelibs-stream@0.2.0",
     "string_decoder": "npm:jspm-nodelibs-string_decoder@0.2.0",
     "ts": "github:frankwallis/plugin-typescript@5.3.3",
+    "url": "npm:jspm-nodelibs-url@0.2.0",
     "util": "npm:jspm-nodelibs-util@0.2.1",
     "vm": "npm:jspm-nodelibs-vm@0.2.0"
   },
@@ -293,7 +298,7 @@ SystemJS.config({
         "browserify-rsa": "npm:browserify-rsa@4.0.1",
         "create-hash": "npm:create-hash@1.1.2",
         "create-hmac": "npm:create-hmac@1.1.4",
-        "elliptic": "npm:elliptic@6.3.2",
+        "elliptic": "npm:elliptic@6.3.3",
         "inherits": "npm:inherits@2.0.3",
         "parse-asn1": "npm:parse-asn1@5.0.0"
       }
@@ -311,7 +316,7 @@ SystemJS.config({
     "npm:create-ecdh@4.0.0": {
       "map": {
         "bn.js": "npm:bn.js@4.11.6",
-        "elliptic": "npm:elliptic@6.3.2"
+        "elliptic": "npm:elliptic@6.3.3"
       }
     },
     "npm:create-hash@1.1.2": {
@@ -356,15 +361,6 @@ SystemJS.config({
         "systemjs-json": "github:systemjs/plugin-json@0.1.2"
       }
     },
-    "npm:elliptic@6.3.2": {
-      "map": {
-        "bn.js": "npm:bn.js@4.11.6",
-        "brorand": "npm:brorand@1.0.6",
-        "hash.js": "npm:hash.js@1.0.3",
-        "inherits": "npm:inherits@2.0.3",
-        "systemjs-json": "github:systemjs/plugin-json@0.1.2"
-      }
-    },
     "npm:evp_bytestokey@1.0.0": {
       "map": {
         "create-hash": "npm:create-hash@1.1.2"
@@ -378,7 +374,7 @@ SystemJS.config({
     "npm:miller-rabin@4.0.0": {
       "map": {
         "bn.js": "npm:bn.js@4.11.6",
-        "brorand": "npm:brorand@1.0.6"
+        "brorand": "npm:brorand@1.0.7"
       }
     },
     "npm:parse-asn1@5.0.0": {
@@ -482,6 +478,172 @@ SystemJS.config({
         "buffer-shims": "npm:buffer-shims@1.0.0",
         "process-nextick-args": "npm:process-nextick-args@1.0.7",
         "util-deprecate": "npm:util-deprecate@1.0.2"
+      }
+    },
+    "npm:d3@4.5.0": {
+      "map": {
+        "d3-array": "npm:d3-array@1.0.2",
+        "d3-dsv": "npm:d3-dsv@1.0.3",
+        "d3-brush": "npm:d3-brush@1.0.3",
+        "d3-drag": "npm:d3-drag@1.0.2",
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-chord": "npm:d3-chord@1.0.3",
+        "d3-color": "npm:d3-color@1.0.2",
+        "d3-axis": "npm:d3-axis@1.0.4",
+        "d3-collection": "npm:d3-collection@1.0.2",
+        "d3-ease": "npm:d3-ease@1.0.2",
+        "d3-random": "npm:d3-random@1.0.2",
+        "d3-polygon": "npm:d3-polygon@1.0.2",
+        "d3-request": "npm:d3-request@1.0.3",
+        "d3-quadtree": "npm:d3-quadtree@1.0.2",
+        "d3-format": "npm:d3-format@1.0.2",
+        "d3-force": "npm:d3-force@1.0.4",
+        "d3-shape": "npm:d3-shape@1.0.4",
+        "d3-selection": "npm:d3-selection@1.0.3",
+        "d3-scale": "npm:d3-scale@1.0.4",
+        "d3-path": "npm:d3-path@1.0.3",
+        "d3-queue": "npm:d3-queue@3.0.3",
+        "d3-voronoi": "npm:d3-voronoi@1.1.1",
+        "d3-timer": "npm:d3-timer@1.0.4",
+        "d3-time-format": "npm:d3-time-format@2.0.3",
+        "d3-time": "npm:d3-time@1.0.4",
+        "d3-zoom": "npm:d3-zoom@1.1.1",
+        "d3-hierarchy": "npm:d3-hierarchy@1.1.1",
+        "d3-interpolate": "npm:d3-interpolate@1.1.3",
+        "d3-geo": "npm:d3-geo@1.4.0",
+        "d3-transition": "npm:d3-transition@1.0.3"
+      }
+    },
+    "npm:d3-brush@1.0.3": {
+      "map": {
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-drag": "npm:d3-drag@1.0.2",
+        "d3-selection": "npm:d3-selection@1.0.3",
+        "d3-interpolate": "npm:d3-interpolate@1.1.3",
+        "d3-transition": "npm:d3-transition@1.0.3"
+      }
+    },
+    "npm:d3-drag@1.0.2": {
+      "map": {
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-selection": "npm:d3-selection@1.0.3"
+      }
+    },
+    "npm:d3-chord@1.0.3": {
+      "map": {
+        "d3-array": "npm:d3-array@1.0.2",
+        "d3-path": "npm:d3-path@1.0.3"
+      }
+    },
+    "npm:d3-dsv@1.0.3": {
+      "map": {
+        "iconv-lite": "npm:iconv-lite@0.4.15",
+        "rw": "npm:rw@1.3.3",
+        "commander": "npm:commander@2.9.0"
+      }
+    },
+    "npm:commander@2.9.0": {
+      "map": {
+        "graceful-readlink": "npm:graceful-readlink@1.0.1"
+      }
+    },
+    "npm:d3-request@1.0.3": {
+      "map": {
+        "d3-collection": "npm:d3-collection@1.0.2",
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-dsv": "npm:d3-dsv@1.0.3",
+        "xmlhttprequest": "npm:xmlhttprequest@1.8.0"
+      }
+    },
+    "npm:d3-force@1.0.4": {
+      "map": {
+        "d3-collection": "npm:d3-collection@1.0.2",
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-quadtree": "npm:d3-quadtree@1.0.2",
+        "d3-timer": "npm:d3-timer@1.0.4"
+      }
+    },
+    "npm:d3-scale@1.0.4": {
+      "map": {
+        "d3-array": "npm:d3-array@1.0.2",
+        "d3-collection": "npm:d3-collection@1.0.2",
+        "d3-color": "npm:d3-color@1.0.2",
+        "d3-format": "npm:d3-format@1.0.2",
+        "d3-time-format": "npm:d3-time-format@2.0.3",
+        "d3-time": "npm:d3-time@1.0.4",
+        "d3-interpolate": "npm:d3-interpolate@1.1.3"
+      }
+    },
+    "npm:jspm-nodelibs-url@0.2.0": {
+      "map": {
+        "url-browserify": "npm:url@0.11.0"
+      }
+    },
+    "npm:jspm-nodelibs-http@0.2.0": {
+      "map": {
+        "http-browserify": "npm:stream-http@2.6.3"
+      }
+    },
+    "npm:stream-http@2.6.3": {
+      "map": {
+        "to-arraybuffer": "npm:to-arraybuffer@1.0.1",
+        "readable-stream": "npm:readable-stream@2.2.2",
+        "builtin-status-codes": "npm:builtin-status-codes@3.0.0",
+        "inherits": "npm:inherits@2.0.3",
+        "xtend": "npm:xtend@4.0.1"
+      }
+    },
+    "npm:url@0.11.0": {
+      "map": {
+        "punycode": "npm:punycode@1.3.2",
+        "querystring": "npm:querystring@0.2.0"
+      }
+    },
+    "npm:elliptic@6.3.3": {
+      "map": {
+        "bn.js": "npm:bn.js@4.11.6",
+        "inherits": "npm:inherits@2.0.3",
+        "hash.js": "npm:hash.js@1.0.3",
+        "brorand": "npm:brorand@1.0.7"
+      }
+    },
+    "npm:d3-shape@1.0.4": {
+      "map": {
+        "d3-path": "npm:d3-path@1.0.3"
+      }
+    },
+    "npm:d3-time-format@2.0.3": {
+      "map": {
+        "d3-time": "npm:d3-time@1.0.4"
+      }
+    },
+    "npm:d3-zoom@1.1.1": {
+      "map": {
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-drag": "npm:d3-drag@1.0.2",
+        "d3-selection": "npm:d3-selection@1.0.3",
+        "d3-interpolate": "npm:d3-interpolate@1.1.3",
+        "d3-transition": "npm:d3-transition@1.0.3"
+      }
+    },
+    "npm:d3-interpolate@1.1.3": {
+      "map": {
+        "d3-color": "npm:d3-color@1.0.2"
+      }
+    },
+    "npm:d3-geo@1.4.0": {
+      "map": {
+        "d3-array": "npm:d3-array@1.0.2"
+      }
+    },
+    "npm:d3-transition@1.0.3": {
+      "map": {
+        "d3-color": "npm:d3-color@1.0.2",
+        "d3-dispatch": "npm:d3-dispatch@1.0.2",
+        "d3-ease": "npm:d3-ease@1.0.2",
+        "d3-selection": "npm:d3-selection@1.0.3",
+        "d3-interpolate": "npm:d3-interpolate@1.1.3",
+        "d3-timer": "npm:d3-timer@1.0.4"
       }
     }
   }
