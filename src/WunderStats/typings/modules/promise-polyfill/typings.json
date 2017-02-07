@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/b952cbe30bb17d29ebd1fbf085adba8bb4387f1a/promise-polyfill/index.d.ts",
+    "raw": "registry:dt/promise-polyfill#6.0.2+20161122084209",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/b952cbe30bb17d29ebd1fbf085adba8bb4387f1a/promise-polyfill/index.d.ts"
+  }
+}

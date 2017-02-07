@@ -1,2 +1,2 @@
 ﻿
-declare type URLSearchParams = {}
+//declare type URLSearchParams = {}

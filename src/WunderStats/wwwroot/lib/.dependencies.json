@@ -273,10 +273,6 @@
     },
     "peerDeps": {}
   },
-  "npm:jspm-nodelibs-assert@0.2.0": {
-    "deps": {},
-    "peerDeps": {}
-  },
   "npm:jspm-nodelibs-process@0.2.0": {
     "deps": {},
     "peerDeps": {}
@@ -716,6 +712,20 @@
     }
   },
   "npm:aurelia-fetch-client@1.1.0": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "github:github/fetch@2.0.2": {
+    "deps": {},
+    "peerDeps": {}
+  },
+  "npm:promise-polyfill@6.0.2": {
+    "deps": {},
+    "peerDeps": {
+      "assert": "npm:jspm-nodelibs-assert@^0.2.0"
+    }
+  },
+  "npm:jspm-nodelibs-assert@0.2.0": {
     "deps": {},
     "peerDeps": {}
   }

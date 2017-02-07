@@ -6,15 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { inject } from "aurelia-framework";
 import { WunderlistApi } from "../services/WunderlistApi";
+import { TaskJournal } from "../services/TaskJournal";
 import { customElement } from "aurelia-framework";
 let Config = class Config {
-    constructor(wunderlistApi) {
+    constructor(wunderlistApi, journal) {
         this.wunderlistApi = wunderlistApi;
+        this.journal = journal;
     }
 };
 Config = __decorate([
-    inject(WunderlistApi),
+    inject(WunderlistApi, TaskJournal),
     customElement("app:config")
 ], Config);
 export { Config };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlnLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLE9BQU8sRUFBRSxNQUFNLEVBQUUsTUFBTSxtQkFBbUIsQ0FBQztBQUMzQyxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sMkJBQTJCLENBQUM7QUFDMUQsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLG1CQUFtQixDQUFDO0FBU2xELElBQWEsTUFBTSxHQUFuQjtJQUNJLFlBQW9CLGFBQTRCO1FBQTVCLGtCQUFhLEdBQWIsYUFBYSxDQUFlO0lBRWhELENBQUM7Q0FDSixDQUFBO0FBSlksTUFBTTtJQUZsQixNQUFNLENBQUMsYUFBYSxDQUFDO0lBQ3JCLGFBQWEsQ0FBQyxZQUFZLENBQUM7R0FDZixNQUFNLENBSWxCO1NBSlksTUFBTSJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlnLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLE9BQU8sRUFBRSxNQUFNLEVBQUUsTUFBTSxtQkFBbUIsQ0FBQztBQUMzQyxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sMkJBQTJCLENBQUM7QUFDMUQsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLHlCQUF5QixDQUFDO0FBQ3RELE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSxtQkFBbUIsQ0FBQztBQVNsRCxJQUFhLE1BQU0sR0FBbkI7SUFDSSxZQUFvQixhQUE0QixFQUFVLE9BQXFCO1FBQTNELGtCQUFhLEdBQWIsYUFBYSxDQUFlO1FBQVUsWUFBTyxHQUFQLE9BQU8sQ0FBYztJQUUvRSxDQUFDO0NBQ0osQ0FBQTtBQUpZLE1BQU07SUFGbEIsTUFBTSxDQUFDLGFBQWEsRUFBRSxXQUFXLENBQUM7SUFDbEMsYUFBYSxDQUFDLFlBQVksQ0FBQztHQUNmLE1BQU0sQ0FJbEI7U0FKWSxNQUFNIn0=

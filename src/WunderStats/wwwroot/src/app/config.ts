@@ -1,5 +1,6 @@
 ﻿import { inject } from "aurelia-framework";
 import { WunderlistApi } from "../services/WunderlistApi";
+import { TaskJournal } from "../services/TaskJournal";
 import { customElement } from "aurelia-framework";
 
 export interface IComboboxItem {
@@ -7,10 +8,10 @@ export interface IComboboxItem {
     name: any;
 }
 
-@inject(WunderlistApi)
+@inject(WunderlistApi, TaskJournal)
 @customElement("app:config")
 export class Config {
-    constructor(private wunderlistApi: WunderlistApi) {
+    constructor(private wunderlistApi: WunderlistApi, private journal : TaskJournal) {
 
     }
 }

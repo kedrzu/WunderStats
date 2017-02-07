@@ -1,4 +1,9 @@
 ﻿import { Aurelia } from "aurelia-framework";
+import "fetch";
+import promise from "promise-polyfill";
+
+if (!(window as any).Promise)
+    (window as any).Promise = promise;
 
 export function configure(aurelia: Aurelia) {
     aurelia.use

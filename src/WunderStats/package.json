@@ -23,6 +23,8 @@
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.0.1",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.1.0",
+      "fetch": "github:github/fetch@^2.0.2",
+      "promise-polyfill": "npm:promise-polyfill@^6.0.2",
       "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.7",
       "ts": "github:frankwallis/plugin-typescript@^5.3.3"
     },

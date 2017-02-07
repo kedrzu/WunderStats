@@ -23,7 +23,8 @@
     "aurelia-templating": "github:aurelia/templating",
     "aurelia-templating-binding": "github:aurelia/templating-binding",
     "aurelia-templating-resources": "github:aurelia/templating-resources",
-    "aurelia-templating-router": "github:aurelia/templating-router"
+    "aurelia-templating-router": "github:aurelia/templating-router",
+    "promise-polyfill": "registry:dt/promise-polyfill#6.0.2+20161122084209"
   },
   "globalDependencies": {
     "jquery": "registry:dt/jquery#1.10.0+20170104155652",

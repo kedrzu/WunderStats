@@ -2,7 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "alwaysStrict": true,
-    "noImplicitAny": true,
+    //"noImplicitAny": true,
     "noEmitOnError": true,
     "removeComments": false,
     "experimentalDecorators": true,
@@ -10,7 +10,12 @@
     "target": "es6",
     //"watch": true,
     "moduleResolution": "node",
-    "typeRoots": [ "./typings/custom", "./typings/globals", "./typings/@types" ],
+    "typeRoots": [
+      "./typings/custom",
+      "./typings/globals",
+      "./typings/@types",
+      "./wwwroot/src/models" 
+    ],
     "baseUrl": ".",
     "paths": {
       "*": [ "*", "typings/modules/*" ]
