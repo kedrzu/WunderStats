@@ -1,3 +1,3 @@
-﻿interface IDictionary<T> {
-    [index: string | number]: T;
+﻿interface IDictionary<TValue> {
+    [index: string]: TValue;
 }

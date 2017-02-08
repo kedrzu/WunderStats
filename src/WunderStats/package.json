@@ -136,6 +136,7 @@
     }
   },
   "dependencies": {
+    "@types/d3": "^4.5.0",
     "semantic-ui": "^2.2.7"
   }
 }

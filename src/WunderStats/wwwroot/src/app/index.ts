@@ -2,6 +2,7 @@
 
 export function configure(aurelia: FrameworkConfiguration) {
     aurelia.globalResources([
-        "./config"
+        "./config",
+        "./tasks-chart"
     ]);
 }    

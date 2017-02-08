@@ -11,16 +11,25 @@ export class TaskJournal {
 
     private lists: IDictionary<number> = {};
     private tasks: IDictionary<ITaskInfo> = {};
-    private days: IDictionary<number> = {};
+    public readonly  days: IDictionary<number> = {};
+
+    public readonly loaded: Promise<any>;
 
     constructor(private wunderlistApi: WunderlistApi) {
-        this.wunderlistApi
+        this.loaded = this.wunderlistApi
             .getLists()
             .then(lists => {
                 for (let list of lists) {
                     this.lists[list.id] = list.revision;
-                    this.loadTasks(list.id).then(() => console.log(this.days));
                 }
+
+                var promises = lists.map(list => {
+                    this.lists[list.id] = list.revision;
+
+                    return this.loadTasks(list.id).then(() => console.log(this.days));
+                });
+
+                return Promise.all(promises) as Promise<any>;
             });
     }
 

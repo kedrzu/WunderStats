@@ -14,11 +14,16 @@
       "./typings/custom",
       "./typings/globals",
       "./typings/@types",
-      "./wwwroot/src/models" 
+      "./wwwroot/src/models",
+      "./node_modules/@types"
     ],
     "baseUrl": ".",
     "paths": {
-      "*": [ "*", "typings/modules/*" ]
+      "*": [
+        "*",
+        "typings/modules/*",
+        "node_modules/@types/*"
+      ]
     },
     "traceResolution": true
   },

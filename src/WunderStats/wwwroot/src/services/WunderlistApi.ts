@@ -53,7 +53,7 @@ export class WunderlistApi {
         return this.get<Wunderlist.ITask[]>("tasks", { list_id: listId, completed: true });
     }
 
-    private get<T>(resource: string, params?: IDictionary<any>): Promise<T> {
+    private get<T>(resource: string, params?: Object): Promise<T> {
         if (params) 
             resource = `${resource}?${buildQueryString(params)}`;
 
