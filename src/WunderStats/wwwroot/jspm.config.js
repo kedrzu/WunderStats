@@ -10,7 +10,7 @@ SystemJS.config({
   devConfig: {
     "map": {
       "ts-runtime": "npm:babel-runtime@5.8.38",
-      "typescript": "npm:typescript@2.1.4",
+      "typescript": "npm:typescript@2.2.0",
       "core-js": "npm:core-js@1.2.7"
     },
     "packages": {
@@ -38,9 +38,9 @@ SystemJS.config({
   ],
   map: {
     "assert": "npm:jspm-nodelibs-assert@0.2.0",
-    "aurelia-binding": "npm:aurelia-binding@1.1.0",
+    "aurelia-binding": "npm:aurelia-binding@1.1.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@2.0.1",
-    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
+    "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.0",
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.1.0",
     "aurelia-framework": "npm:aurelia-framework@1.0.8",
@@ -56,10 +56,10 @@ SystemJS.config({
     "aurelia-path": "npm:aurelia-path@1.1.1",
     "aurelia-polyfills": "npm:aurelia-polyfills@1.1.1",
     "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0",
-    "aurelia-router": "npm:aurelia-router@1.1.0",
+    "aurelia-router": "npm:aurelia-router@1.1.1",
     "aurelia-task-queue": "npm:aurelia-task-queue@1.1.0",
-    "aurelia-templating": "npm:aurelia-templating@1.1.4",
-    "aurelia-templating-binding": "npm:aurelia-templating-binding@1.1.0",
+    "aurelia-templating": "npm:aurelia-templating@1.2.0",
+    "aurelia-templating-binding": "npm:aurelia-templating-binding@1.2.0",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.2.0",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.1",
     "buffer": "npm:jspm-nodelibs-buffer@0.2.1",
@@ -91,13 +91,13 @@ SystemJS.config({
   packages: {
     "github:Semantic-Org/Semantic-UI@2.2.7": {
       "map": {
-        "css": "github:systemjs/plugin-css@0.1.30",
+        "css": "github:systemjs/plugin-css@0.1.32",
         "jquery": "npm:jquery@2.2.4"
       }
     },
     "github:frankwallis/plugin-typescript@5.3.3": {
       "map": {
-        "typescript": "npm:typescript@2.1.4"
+        "typescript": "npm:typescript@2.2.0"
       }
     },
     "npm:asn1.js@4.9.1": {
@@ -107,38 +107,6 @@ SystemJS.config({
         "minimalistic-assert": "npm:minimalistic-assert@1.0.0"
       }
     },
-    "npm:aurelia-binding@1.1.0": {
-      "map": {
-        "aurelia-logging": "npm:aurelia-logging@1.2.0",
-        "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-        "aurelia-pal": "npm:aurelia-pal@1.2.0",
-        "aurelia-task-queue": "npm:aurelia-task-queue@1.1.0"
-      }
-    },
-    "npm:aurelia-bootstrapper@2.0.1": {
-      "map": {
-        "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
-        "aurelia-framework": "npm:aurelia-framework@1.0.8",
-        "aurelia-history": "npm:aurelia-history@1.0.0",
-        "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0",
-        "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0",
-        "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0",
-        "aurelia-pal": "npm:aurelia-pal@1.2.0",
-        "aurelia-pal-browser": "npm:aurelia-pal-browser@1.1.0",
-        "aurelia-polyfills": "npm:aurelia-polyfills@1.1.1",
-        "aurelia-router": "npm:aurelia-router@1.1.0",
-        "aurelia-templating": "npm:aurelia-templating@1.1.4",
-        "aurelia-templating-binding": "npm:aurelia-templating-binding@1.1.0",
-        "aurelia-templating-resources": "npm:aurelia-templating-resources@1.2.0",
-        "aurelia-templating-router": "npm:aurelia-templating-router@1.0.1"
-      }
-    },
-    "npm:aurelia-dependency-injection@1.2.1": {
-      "map": {
-        "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-        "aurelia-pal": "npm:aurelia-pal@1.2.0"
-      }
-    },
     "npm:aurelia-event-aggregator@1.0.1": {
       "map": {
         "aurelia-logging": "npm:aurelia-logging@1.2.0"
@@ -146,15 +114,15 @@ SystemJS.config({
     },
     "npm:aurelia-framework@1.0.8": {
       "map": {
-        "aurelia-binding": "npm:aurelia-binding@1.1.0",
-        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
+        "aurelia-binding": "npm:aurelia-binding@1.1.1",
+        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.0",
         "aurelia-loader": "npm:aurelia-loader@1.0.0",
         "aurelia-logging": "npm:aurelia-logging@1.2.0",
         "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
         "aurelia-pal": "npm:aurelia-pal@1.2.0",
         "aurelia-path": "npm:aurelia-path@1.1.1",
         "aurelia-task-queue": "npm:aurelia-task-queue@1.1.0",
-        "aurelia-templating": "npm:aurelia-templating@1.1.4"
+        "aurelia-templating": "npm:aurelia-templating@1.2.0"
       }
     },
     "npm:aurelia-history-browser@1.0.0": {
@@ -201,63 +169,34 @@ SystemJS.config({
         "aurelia-path": "npm:aurelia-path@1.1.1"
       }
     },
-    "npm:aurelia-router@1.1.0": {
-      "map": {
-        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
-        "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.1",
-        "aurelia-history": "npm:aurelia-history@1.0.0",
-        "aurelia-logging": "npm:aurelia-logging@1.2.0",
-        "aurelia-path": "npm:aurelia-path@1.1.1",
-        "aurelia-route-recognizer": "npm:aurelia-route-recognizer@1.1.0"
-      }
-    },
     "npm:aurelia-task-queue@1.1.0": {
       "map": {
         "aurelia-pal": "npm:aurelia-pal@1.2.0"
       }
     },
-    "npm:aurelia-templating-binding@1.1.0": {
-      "map": {
-        "aurelia-binding": "npm:aurelia-binding@1.1.0",
-        "aurelia-logging": "npm:aurelia-logging@1.2.0",
-        "aurelia-templating": "npm:aurelia-templating@1.1.4"
-      }
-    },
     "npm:aurelia-templating-resources@1.2.0": {
       "map": {
-        "aurelia-binding": "npm:aurelia-binding@1.1.0",
-        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
+        "aurelia-binding": "npm:aurelia-binding@1.1.1",
+        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.0",
         "aurelia-loader": "npm:aurelia-loader@1.0.0",
         "aurelia-logging": "npm:aurelia-logging@1.2.0",
         "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
         "aurelia-pal": "npm:aurelia-pal@1.2.0",
         "aurelia-path": "npm:aurelia-path@1.1.1",
         "aurelia-task-queue": "npm:aurelia-task-queue@1.1.0",
-        "aurelia-templating": "npm:aurelia-templating@1.1.4"
+        "aurelia-templating": "npm:aurelia-templating@1.2.0"
       }
     },
     "npm:aurelia-templating-router@1.0.1": {
       "map": {
-        "aurelia-binding": "npm:aurelia-binding@1.1.0",
-        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
+        "aurelia-binding": "npm:aurelia-binding@1.1.1",
+        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.3.0",
         "aurelia-logging": "npm:aurelia-logging@1.2.0",
         "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
         "aurelia-pal": "npm:aurelia-pal@1.2.0",
         "aurelia-path": "npm:aurelia-path@1.1.1",
-        "aurelia-router": "npm:aurelia-router@1.1.0",
-        "aurelia-templating": "npm:aurelia-templating@1.1.4"
-      }
-    },
-    "npm:aurelia-templating@1.1.4": {
-      "map": {
-        "aurelia-binding": "npm:aurelia-binding@1.1.0",
-        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.2.1",
-        "aurelia-loader": "npm:aurelia-loader@1.0.0",
-        "aurelia-logging": "npm:aurelia-logging@1.2.0",
-        "aurelia-metadata": "npm:aurelia-metadata@1.0.3",
-        "aurelia-pal": "npm:aurelia-pal@1.2.0",
-        "aurelia-path": "npm:aurelia-path@1.1.1",
-        "aurelia-task-queue": "npm:aurelia-task-queue@1.1.0"
+        "aurelia-router": "npm:aurelia-router@1.1.1",
+        "aurelia-templating": "npm:aurelia-templating@1.2.0"
       }
     },
     "npm:bn.js@4.11.6": {
@@ -413,18 +352,8 @@ SystemJS.config({
         "inherits": "npm:inherits@2.0.3"
       }
     },
-    "npm:source-map-support@0.4.8": {
-      "map": {
-        "source-map": "npm:source-map@0.5.6"
-      }
-    },
     "npm:source-map@0.5.6": {
       "map": {}
-    },
-    "npm:typescript@2.1.4": {
-      "map": {
-        "source-map-support": "npm:source-map-support@0.4.8"
-      }
     },
     "npm:jspm-nodelibs-crypto@0.2.0": {
       "map": {
@@ -645,6 +574,16 @@ SystemJS.config({
         "d3-selection": "npm:d3-selection@1.0.3",
         "d3-interpolate": "npm:d3-interpolate@1.1.3",
         "d3-timer": "npm:d3-timer@1.0.4"
+      }
+    },
+    "npm:typescript@2.2.0": {
+      "map": {
+        "source-map-support": "npm:source-map-support@0.4.11"
+      }
+    },
+    "npm:source-map-support@0.4.11": {
+      "map": {
+        "source-map": "npm:source-map@0.5.6"
       }
     }
   }

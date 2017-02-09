@@ -38,7 +38,7 @@
     },
     "peerDependencies": {
       "assert": "npm:jspm-nodelibs-assert@^0.2.0",
-      "aurelia-binding": "npm:aurelia-binding@^1.0.9",
+      "aurelia-binding": "npm:aurelia-binding@^1.1.0",
       "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0",
       "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0",
       "aurelia-framework": "npm:aurelia-framework@^1.0.8",
@@ -123,7 +123,7 @@
       "npm:moment@2.17.1": {
         "jspmNodeConversion": false
       },
-      "npm:typescript@2.1.4": {
+      "npm:typescript@2.2.0": {
         "browser": {},
         "map": {
           "buffer": "@empty",
@@ -143,4 +143,4 @@
     "@types/d3": "^4.5.0",
     "semantic-ui": "^2.2.7"
   }
-}
+}
