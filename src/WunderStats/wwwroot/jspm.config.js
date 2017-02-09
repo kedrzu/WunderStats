@@ -11,7 +11,11 @@ SystemJS.config({
     "map": {
       "ts-runtime": "npm:babel-runtime@5.8.38",
       "typescript": "npm:typescript@2.2.0",
-      "core-js": "npm:core-js@1.2.7"
+      "core-js": "npm:core-js@1.2.7",
+      "module": "npm:jspm-nodelibs-module@0.2.0",
+      "net": "npm:jspm-nodelibs-net@0.2.0",
+      "babel-runtime": "npm:babel-runtime@5.8.38",
+      "babel": "npm:babel-core@5.8.38"
     },
     "packages": {
       "npm:babel-runtime@5.8.38": {
@@ -73,9 +77,7 @@ SystemJS.config({
     "http": "npm:jspm-nodelibs-http@0.2.0",
     "https": "npm:jspm-nodelibs-https@0.2.1",
     "jquery": "npm:jquery@3.1.1",
-    "module": "npm:jspm-nodelibs-module@0.2.0",
     "moment": "npm:moment@2.17.1",
-    "net": "npm:jspm-nodelibs-net@0.2.0",
     "os": "npm:jspm-nodelibs-os@0.2.0",
     "path": "npm:jspm-nodelibs-path@0.2.1",
     "process": "npm:jspm-nodelibs-process@0.2.0",
