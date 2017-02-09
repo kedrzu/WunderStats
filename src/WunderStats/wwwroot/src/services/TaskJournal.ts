@@ -9,9 +9,9 @@ interface ITaskInfo {
 @inject(WunderlistApi)
 export class TaskJournal {
 
-    private lists: IDictionary<number> = {};
-    private tasks: IDictionary<ITaskInfo> = {};
-    public readonly  days: IDictionary<number> = {};
+    private readonly lists: IDictionary<number> = {};
+    private readonly tasks: IDictionary<ITaskInfo> = {};
+    private readonly days: IDictionary<number> = {};
 
     public readonly loaded: Promise<any>;
 
@@ -40,8 +40,7 @@ export class TaskJournal {
 
                 // zapisujemy informacje o taskach
                 for (let task of tasks) {
-                    // wyciąga samą datę ze stringa formatu ISO 8601
-                    var date = task.completed_at.substr(0, 10);
+                    var date = this.formatDate(moment(task.completed_at));
 
                     this.tasks[task.id] = {
                         revision: task.revision,
@@ -57,4 +56,21 @@ export class TaskJournal {
             });
     }
 
+    public getData(from: moment.Moment, to: moment.Moment): ISample[] {
+       var samples: ISample[] = [];
+
+        for (var date = from; date <= to; date.add(1, "day")) {
+            var dateStr = this.formatDate(date);
+            samples.push({
+                date: date,
+                value: this.days[dateStr] || 0
+            });
+       }
+
+        return samples;
+    }
+
+    private formatDate(date: moment.Moment) {
+        return date.format("DD-MM-YYYY");
+    }
 }

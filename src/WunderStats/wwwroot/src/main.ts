@@ -1,6 +1,7 @@
 ﻿import { Aurelia } from "aurelia-framework";
 import "fetch";
 import "jquery";
+import "moment";
 import "semantic/semantic.js";
 import promise from "promise-polyfill";
 

@@ -74,6 +74,7 @@ SystemJS.config({
     "https": "npm:jspm-nodelibs-https@0.2.1",
     "jquery": "npm:jquery@3.1.1",
     "module": "npm:jspm-nodelibs-module@0.2.0",
+    "moment": "npm:moment@2.17.1",
     "net": "npm:jspm-nodelibs-net@0.2.0",
     "os": "npm:jspm-nodelibs-os@0.2.0",
     "path": "npm:jspm-nodelibs-path@0.2.1",

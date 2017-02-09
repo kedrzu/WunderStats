@@ -1,2 +1,4 @@
 ﻿lib/
 lib
+src/**/*.js
+src/**/*.js.map
